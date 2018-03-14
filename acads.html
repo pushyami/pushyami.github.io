@@ -5,7 +5,7 @@
             body{
                 background:#333333 url(images/page-bg.jpg);
                 margin:0px;
-                font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+                font: 400 14px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
                 color:#6a6969;
                 
             }
@@ -27,7 +27,10 @@
         /****************************************************/
         /* HEADER */
         /****************************************************/
-     
+    	.whitetext{
+
+	color:#FFFFFF
+} 
         #header{
             width:864px;
             height:115px;
@@ -173,8 +176,8 @@
         <div id="header">
            <!--  <div id="logo"><a href="#"><img src="images/logo.png" height = "70" width = "400"></a></div> -->
            <ul id="main-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="acads.html">Academics</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="acads.html"><span class="whitetext">Academics</span></a></li>
                 <li><a href="research.html">Research</a></li>
                 <li><a href="projects.html">Projects</a></li>
 		<li><a href="resume.html">Resume</a></li>
@@ -194,38 +197,46 @@
                     <img src="image.jpg"/>
                 </div> -->
                 <div id="about" align="center" >
-           <div>
-		</div>
-	<div>
-	</div>        
-	 <h2> Pushyami Rachapudi </h2> 
+                   
+<!--	 <h2> Pushyami Rachapudi </h2> -->
                   
                     <div class="top-divider"></div>
-                    <div class="round">
                         
-                        <img src="images/image.jpg" align="center"/>
+		<h2 align="Left"> About </h2>
+<p align = "Left">
+			I am currently in the final year of a unique interdisciplinary dual degree program of <span class="whitetext">Bachelors in</span> <span class="whitetext">Computer Science and </span><span class="whitetext">MS by </span><span class="whitetext">Research</span><span class="whitetext"> in Exact Humanities</span> at International Institute of Information Technology Hyderabad <a href="https://www.iiit.ac.in/" class="whitetext">(IIIT-H)</a>, Hyderabad, India. 
+
+
+  </p>                     
+      <h2 align="Left"> Master's Thesis </h2>
+<p align="Left">
+I have started my master's research in the final year of my undergraduation. The thesis in the field of Humanities is on <span class="whitetext">Ontology of Tennis.</span> More details can be found <a href="thesis.html" class="whitetext" ><u>here</u></a>.	        <p>
+<h2 align="Left"> Bachelor's of Technology </h2>
+<p align="Left">
+Selection into IIIT is a highly competetive process. The selection required a preliminary "All India Engineering Exntrance Examination", upon qualification, I topped the aptitude and objective exam conducted by IIIT-H. I was one of the 500 students shortlisted for interviews. I aced the interviews and I was one of the top 1% of 1.2 million aspirants to join IIIT Hyderabad, a university known for promoting undergraduate research. 
+</p>
+
+<p align="Left">
+
+I have done my undergraduation at IIITH from August 2011 to May 2015. I majored in <span class="whitetext">Computer Science</span> and I have succesfully completed by Bachelor's with a GPA of <span class="whitetext">7.82/10</span>. 
+
+I am interested in Computer Vision, particularly Computational Photography, Image and Video Analysis and 3D reconstruction.
+</p>
+<p align="Left"> 
+In my sophomore and Junior year, I started participating in workshops around the country, in order to gain some perspective on how the work is done outside of my college and to keep myself updated constantly. It was during these workshops, I started thinking about research career seriously.
+ </p>
+<p align="Left">
+My tenure as a Visting Researcher at Camera Culture Group, MIT Media Lab has motivated me to pursue a research career. It exposed me to a focussed and innovative approach to research and encouraged me to explore new fields. Know more about my experience at MIT <a href="mit.html"><u class="whitetext">here<u></a>.              
+ </p>
+                   <div class="content">
                         
                         
                     </div>
-                    
-                    
-                    <div class="content">
-                        
-                        
-                    </div>
-                    <ul id="top-social">
-                        <li> <a href="mailto:pushyami12@gmail.com" class="Mail" title="Mailto:pushyami12@gmail.com">Mail</a>
-                        
-                        <li><a href="https://twitter.com/rpushyami" class="twitter" title="Twitter">Twitter</a></li>
-                        <li><a href="https://plus.google.com/111934359243773885764" class="Google" title="Google+">Google</a></li>
-                        <li><a href="https://www.instagram.com/pushyamirachapudi/" class="instagram" title="Instagram">Instagram</a></li>
-                        <li><a href="https://github.com/pushyami" class="Github" title="Github">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/pushyami-rachapudi" class="linkedin" title="Linkedin">LinkedIn</a></li>
-                        <li><a href="https://www.facebook.com/pushyami.rachapudi" class="facebook" title="Facebook">Facebook</a></li>
-                        
-                        
-                    </ul>
-                    <div class="bottom-divider"></div> 
+                
+
+		
+		
+		    <div class="bottom-divider"></div> 
                 </div>
                
                             <!--End About Section-->
@@ -235,7 +246,7 @@
         
         
         
-        <!-- The JavaScript -->
+       <!-- The JavaScript -->
         <script type="text/javascript">
             $(function() {
               $('#main-menu li a').bind('click',function(event){

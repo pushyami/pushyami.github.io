@@ -5,13 +5,13 @@
             body{
                 background:#333333 url(images/page-bg.jpg);
                 margin:0px;
-                font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+                font: 400 14px/24px 'Open Sans', Verdana, Helvetica, sans-serif;
                 color:#6a6969;
                 
             }
             h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
             h2{font: 400 28px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
-            h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+            h3{font: 400 20px/18px 'Bree Serif', Georgia, serif; color:#6a6969;}
             ul{margin:0px; padding:0px;}
             a {text-decoration:none; color:#6a6969;}
             a:hover {color:#979797;}
@@ -27,7 +27,19 @@
         /****************************************************/
         /* HEADER */
         /****************************************************/
-     
+    	.whitetext{
+
+	color:#FFFFFF
+}
+	.greytext{
+	color:#C0C0C0
+
+} 
+ul#research-menu li {
+    display:inline;
+            font: 400 16px/20px 'Bree Serif', Georgia, serif;
+            padding:0px 20px;
+}
         #header{
             width:864px;
             height:115px;
@@ -165,7 +177,15 @@
             background:url(images/divider.png) repeat-x;
             clear:both;
         }
+        .middle-divider{
+            width:100%;
+            height:2px;
+            background:url(images/divider.png) repeat-x;
+            clear:both;
+        }
         .top-divider{margin-bottom:40px;}
+
+        .middle-divider{margin-top:20px;}
         .bottom-divider{margin-top:40px;}
         </style>
     </head>
@@ -173,9 +193,9 @@
         <div id="header">
            <!--  <div id="logo"><a href="#"><img src="images/logo.png" height = "70" width = "400"></a></div> -->
            <ul id="main-menu">
-                <li><a href="#about">About</a></li>
+                <li><a href="index.html">About</a></li>
                 <li><a href="acads.html">Academics</a></li>
-                <li><a href="research.html">Research</a></li>
+                <li><a href="research.html"><span class="whitetext">Research</span></a></li>
                 <li><a href="projects.html">Projects</a></li>
 		<li><a href="resume.html">Resume</a></li>
 		<li><a href="extra.html">Extra Curriculars</a></li>
@@ -189,43 +209,43 @@
         <div id="container">
             
             <!--Begin About Section-->
-            <div id="about">
-             <!--   <div class="round">
-                    <img src="image.jpg"/>
-                </div> -->
+<h2> </h2>
                 <div id="about" align="center" >
-           <div>
-		</div>
-	<div>
-	</div>        
-	 <h2> Pushyami Rachapudi </h2> 
+<div id="subheader">             
+<ul id="research-menu">
+
+<li><a href="sop.html"><span font-size="15px" class="whitetext"><u> Statement of Purpose </u></a></span></li>
+<li><a href="publications.html"><span font-size="15px" class="whitetext"><u> Publications</u></a></span></li>
+<li><a href="patents.html"><span font-size="15px" class="whitetext"><u> Patents </u></a></span></li>
+<li><a href="workshops.html"><span font-size="15px" class="whitetext"><u> Workshops </u></a></span></li>
+<li><a href="talks.html"><span font-size="15px" class="whitetext"><u> Talks </u></a></span></li>
+<li><a href="pro.html"><span font-size="15px" class="whitetext"><u> Projects </u></a></span></li>
+
+
+
+</ul> 
+</div>     
+          <h2> </h2>         
+<!--	 <h2> Pushyami Rachapudi </h2> -->
                   
                     <div class="top-divider"></div>
-                    <div class="round">
+			<h2 align="center"> Research Projects </h2>
+                    <div class="top-divider"></div>
                         
-                        <img src="images/image.jpg" align="center"/>
-                        
-                        
+                   <div class="content">
+<h3 align="Left"><span class="whitetext"> Master's Thesis: Ontology of Tennis</span> </h3>
+
+ This thesis aims at formalizing and modeling the complete concept of tennis by designing graph grammars which depict the flow of the game adhering to the rules set by ITF. We have collected and created a huge vocabulary of tennis terms which are defined by various paths and trees in the grammar. The event trees are then used to create a context free grammar. For the computational ease of use of this ontology, hypergraphs are implemented which encompass the complete ontology created. This ontology is used to implement various applications which can be used for the purpose of coaching. An android app was created to annotate tennis videos, which are then used to extract game statistics and player profiles in real time. Designed and implemented improvised algorithms for player and ball detection with varied and natural backgrounds. Determination of the ball spin and next probable shot detection using ball physics and machine learning techniques. Documentation standards are set, which can be used in practice matches to capture the complete game along with a coach's perspective.
                     </div>
-                    
-                    
-                    <div class="content">
-                        
-                        
-                    </div>
-                    <ul id="top-social">
-                        <li> <a href="mailto:pushyami12@gmail.com" class="Mail" title="Mailto:pushyami12@gmail.com">Mail</a>
-                        
-                        <li><a href="https://twitter.com/rpushyami" class="twitter" title="Twitter">Twitter</a></li>
-                        <li><a href="https://plus.google.com/111934359243773885764" class="Google" title="Google+">Google</a></li>
-                        <li><a href="https://www.instagram.com/pushyamirachapudi/" class="instagram" title="Instagram">Instagram</a></li>
-                        <li><a href="https://github.com/pushyami" class="Github" title="Github">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/pushyami-rachapudi" class="linkedin" title="Linkedin">LinkedIn</a></li>
-                        <li><a href="https://www.facebook.com/pushyami.rachapudi" class="facebook" title="Facebook">Facebook</a></li>
-                        
-                        
-                    </ul>
-                    <div class="bottom-divider"></div> 
+                
+                    <div class="middle-divider"></div>
+
+<h3 align="Left"><span class="whitetext">Visiting Researcher: Anterior Segment Imaging </span> </h3>
+
+Worked as Computer Vision Engineer on the project Anterior Segment Imaging, which was later published at ARVO and also manifested into a patent.Worked on 3D reconstructing the cornea of the eye (non opaque objects in general) by developing improvised algorithms extending them to transparent, featureless objects. Worked on specular reflection removal in images by separating different components of illumination without loss of information. Worked on data collection, first on the optical bench with  cadaver bovine eye. Later on the 3D printed prototype. Trained in laser safety and calculated the safety thresholds for the lasers used in the prototype. Assisted in designing the prototype and 3D printing of parts.
+		
+		
+		    <div class="bottom-divider"></div> 
                 </div>
                
                             <!--End About Section-->
@@ -235,7 +255,7 @@
         
         
         
-        <!-- The JavaScript -->
+       <!-- The JavaScript -->
         <script type="text/javascript">
             $(function() {
               $('#main-menu li a').bind('click',function(event){

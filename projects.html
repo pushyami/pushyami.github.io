@@ -5,13 +5,13 @@
             body{
                 background:#333333 url(images/page-bg.jpg);
                 margin:0px;
-                font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+                font: 400 14px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
                 color:#6a6969;
                 
             }
             h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
             h2{font: 400 28px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
-            h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+            h3{font: 400 18px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
             ul{margin:0px; padding:0px;}
             a {text-decoration:none; color:#6a6969;}
             a:hover {color:#979797;}
@@ -27,7 +27,10 @@
         /****************************************************/
         /* HEADER */
         /****************************************************/
-     
+    	.whitetext{
+
+	color:#FFFFFF
+} 
         #header{
             width:864px;
             height:115px;
@@ -165,18 +168,26 @@
             background:url(images/divider.png) repeat-x;
             clear:both;
         }
+	.middle-divider{
+	width:100%;
+	height:2px;
+           background:url(images/divider.png) repeat-x;
+            clear:both;
+	
+	}
         .top-divider{margin-bottom:40px;}
         .bottom-divider{margin-top:40px;}
+	.middle-divider{margin-top:20px;}
         </style>
     </head>
     <body>
         <div id="header">
            <!--  <div id="logo"><a href="#"><img src="images/logo.png" height = "70" width = "400"></a></div> -->
            <ul id="main-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="acads.html">Academics</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="acads.html">Academics</span></a></li>
                 <li><a href="research.html">Research</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="projects.html"><span class="whitetext">Projects</span></a></li>
 		<li><a href="resume.html">Resume</a></li>
 		<li><a href="extra.html">Extra Curriculars</a></li>
 		<li><a href="blog.html">Blog</a></li>
@@ -193,39 +204,69 @@
              <!--   <div class="round">
                     <img src="image.jpg"/>
                 </div> -->
-                <div id="about" align="center" >
-           <div>
-		</div>
-	<div>
-	</div>        
-	 <h2> Pushyami Rachapudi </h2> 
+                <div id="about">
+                   
+<!--	 <h2> Pushyami Rachapudi </h2> -->
                   
                     <div class="top-divider"></div>
-                    <div class="round">
+		<h2 align="center"> Projects </h2>
+                    <div class="top-divider"></div>
                         
-                        <img src="images/image.jpg" align="center"/>
-                        
+                   <div class="content">
+                       Here are some projects I have during my undergraduation. Few of them are sub-projects part of a whole, some of them are part of course-work and others self-interest projects.
+
+                    <div class="middle-divider"></div>
+<h3 class="whitetext">Global and Direct illumination separation (sub-project) </h3>
+<ul>
+<li> Implemented and improvised the fast separation algorithm in order to remove specular reflections on images in which features are not present, as part of Anterior Segment Imaging Project.  </li>
+</ul>
+                    <div class="middle-divider"></div>
+<h3 class="whitetext"> NLP Parser </h3>
+<ul>
+<li>Given training data, created the tokenizer, modeled the language(using n-grams), extracted the POS tags and chunking rules. Applied the above extracted rules to testing data, if unseen words are found, used different smoothing techniques, viterbi and morph analysis(for Hindi and Telugu languages) to POS tag and chunk those unseen words. Finally implemented the CYK parser to predict the phrase structure of a sentence. </li>
+</ul> 
+                    <div class="middle-divider"></div>
+<h3 class="whitetext"> Database Management System</h3>
+<ul>
+<li> Built a database management system which includes populating the database, allotting pages, creating cache, parsing the query and executing the command. Built my own SQL parser. </li>
+</ul> 
+                    <div class="middle-divider"></div>
+<h3 class="whitetext">Cassandra Browser Tool</h3>
+<ul>
+<li>Created a Cassandra Browser tool for browsing namespaces and data in Cassandra using python. Created a database server with keyspaces and column families and a user interface to pass queries in order to retrieve information about the keyspaces. Implemented all functionalities with respect to key spaces and column families. </li>
+</ul> 
+                    <div class="middle-divider"></div>
+<h3 class="whitetext">Virtualization Orchestration Layer </h3>
+<ul>
+<li>Implemented a fabric that coordinates the provisioning of compute and storage resources by negotiating with a set of hypervisors running across physical servers in the data center.  </li>
+</ul> 
+                    <div class="middle-divider"></div>
+<h3 class="whitetext">TA portal </h3>
+<ul>
+<li>Built the Teaching Assistant Portal for IIIT Hyderabad with improved interfaces and additional functionalities. It is an interface through which students can apply for the post of a Teaching Assistant and the instructors can choose assistants for their courses based on a variety of characteristics like GPA of the student or previous experience of the student etc.  </li>
+</ul> 
+                    <div class="middle-divider"></div>
+<h3 class="whitetext">OpenGL Pipeline </h3>
+<ul>
+<li>Implemented a coordinate tranformation pipeline, similar to the one in OpenGL, for calculating projected 2D coordinates of different objects.  </li>
+</ul> 
+                    <div class="middle-divider"></div>
+<h3 class="whitetext">3D Adventure Game </h3>
+<ul>
+<li> Created a 3D adventure multi-player game using OpenGL library in C++ that simulates a 3D world. Rendered all the physical elements such as water, sky, a 3D human body and an auto generated path for the player to move. Implemented different camera angles and views. Applied all laws of physics such as collisions, friction and gravity as well. </li>
+</ul> 
+                    <div class="middle-divider"></div>
+<h3 class="whitetext">Unix Shell </h3>
+<ul>
+<li> Implemented a bash like shell with I/O redirection, background process management, signal handling, piping of different commands using the concepts of fork, exec and signals. </li>
+</ul> 
                         
                     </div>
-                    
-                    
-                    <div class="content">
-                        
-                        
-                    </div>
-                    <ul id="top-social">
-                        <li> <a href="mailto:pushyami12@gmail.com" class="Mail" title="Mailto:pushyami12@gmail.com">Mail</a>
-                        
-                        <li><a href="https://twitter.com/rpushyami" class="twitter" title="Twitter">Twitter</a></li>
-                        <li><a href="https://plus.google.com/111934359243773885764" class="Google" title="Google+">Google</a></li>
-                        <li><a href="https://www.instagram.com/pushyamirachapudi/" class="instagram" title="Instagram">Instagram</a></li>
-                        <li><a href="https://github.com/pushyami" class="Github" title="Github">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/pushyami-rachapudi" class="linkedin" title="Linkedin">LinkedIn</a></li>
-                        <li><a href="https://www.facebook.com/pushyami.rachapudi" class="facebook" title="Facebook">Facebook</a></li>
-                        
-                        
-                    </ul>
-                    <div class="bottom-divider"></div> 
+                
+
+		
+		
+		    <div class="bottom-divider"></div> 
                 </div>
                
                             <!--End About Section-->
@@ -235,7 +276,7 @@
         
         
         
-        <!-- The JavaScript -->
+       <!-- The JavaScript -->
         <script type="text/javascript">
             $(function() {
               $('#main-menu li a').bind('click',function(event){

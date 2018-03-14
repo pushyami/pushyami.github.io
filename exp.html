@@ -5,7 +5,7 @@
             body{
                 background:#333333 url(images/page-bg.jpg);
                 margin:0px;
-                font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+                font: 400 14px/24px 'Open Sans', Verdana, Helvetica, sans-serif;
                 color:#6a6969;
                 
             }
@@ -27,7 +27,19 @@
         /****************************************************/
         /* HEADER */
         /****************************************************/
-     
+    	.whitetext{
+
+	color:#FFFFFF
+}
+	.greytext{
+	color:#C0C0C0
+
+} 
+ul#research-menu li {
+    display:inline;
+            font: 400 16px/20px 'Bree Serif', Georgia, serif;
+            padding:0px 20px;
+}
         #header{
             width:864px;
             height:115px;
@@ -173,9 +185,9 @@
         <div id="header">
            <!--  <div id="logo"><a href="#"><img src="images/logo.png" height = "70" width = "400"></a></div> -->
            <ul id="main-menu">
-                <li><a href="#about">About</a></li>
+                <li><a href="index.html">About</a></li>
                 <li><a href="acads.html">Academics</a></li>
-                <li><a href="research.html">Research</a></li>
+                <li><a href="research.html"><span class="whitetext">Research</span></a></li>
                 <li><a href="projects.html">Projects</a></li>
 		<li><a href="resume.html">Resume</a></li>
 		<li><a href="extra.html">Extra Curriculars</a></li>
@@ -189,43 +201,39 @@
         <div id="container">
             
             <!--Begin About Section-->
-            <div id="about">
-             <!--   <div class="round">
-                    <img src="image.jpg"/>
-                </div> -->
+<h2> </h2>
                 <div id="about" align="center" >
-           <div>
-		</div>
-	<div>
-	</div>        
-	 <h2> Pushyami Rachapudi </h2> 
+<div id="subheader">             
+<ul id="research-menu">
+
+<li><a href="sop.html"><span font-size="15px" class="whitetext"><u> Statement of Purpose </u></a></span></li>
+<li><a href="publications.html"><span font-size="15px" class="whitetext"><u> Publications</u></a></span></li>
+<li><a href="patents.html"><span font-size="15px" class="whitetext"><u> Patents </u></a></span></li>
+<li><a href="workshops.html"><span font-size="15px" class="whitetext"><u> Workshops </u></a></span></li>
+<li><a href="talks.html"><span font-size="15px" class="whitetext"><u> Talks </u></a></span></li>
+<li><a href="exp.html"><span font-size="15px" class="whitetext"><u> Experience </u></a></span></li>
+<li><a href="pro.html"><span font-size="15px" class="whitetext"><u> Projects </u></a></span></li>
+
+
+
+</ul> 
+</div>     
+          <h2> </h2>         
+<!--	 <h2> Pushyami Rachapudi </h2> -->
                   
                     <div class="top-divider"></div>
-                    <div class="round">
+			<h2 align="center"> Research Experience </h2>
+                    <div class="top-divider"></div>
                         
-                        <img src="images/image.jpg" align="center"/>
-                        
-                        
+                   <div class="content">
+                       	<ol>
+
                     </div>
-                    
-                    
-                    <div class="content">
-                        
-                        
-                    </div>
-                    <ul id="top-social">
-                        <li> <a href="mailto:pushyami12@gmail.com" class="Mail" title="Mailto:pushyami12@gmail.com">Mail</a>
-                        
-                        <li><a href="https://twitter.com/rpushyami" class="twitter" title="Twitter">Twitter</a></li>
-                        <li><a href="https://plus.google.com/111934359243773885764" class="Google" title="Google+">Google</a></li>
-                        <li><a href="https://www.instagram.com/pushyamirachapudi/" class="instagram" title="Instagram">Instagram</a></li>
-                        <li><a href="https://github.com/pushyami" class="Github" title="Github">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/pushyami-rachapudi" class="linkedin" title="Linkedin">LinkedIn</a></li>
-                        <li><a href="https://www.facebook.com/pushyami.rachapudi" class="facebook" title="Facebook">Facebook</a></li>
-                        
-                        
-                    </ul>
-                    <div class="bottom-divider"></div> 
+                
+
+		
+		
+		    <div class="bottom-divider"></div> 
                 </div>
                
                             <!--End About Section-->
@@ -235,7 +243,7 @@
         
         
         
-        <!-- The JavaScript -->
+       <!-- The JavaScript -->
         <script type="text/javascript">
             $(function() {
               $('#main-menu li a').bind('click',function(event){
